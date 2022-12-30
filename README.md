@@ -43,7 +43,8 @@ git clone https://github.com/anubhutigupta2409/github-create-repo.git
  GITHUB_CLIENT_SECRET= *paste your client secret*  
  GITHUB_SCOPES= repo
 ```  
-* You can also edit the `templateRepo.json` file to change the template repo from which the new repo is created
+* You can also edit the `templateRepo.json` file to change the template repo from which the new repo is created  
+
 
 ## How to run the project
 
@@ -53,5 +54,12 @@ npm start
 ```
 
 Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.  
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser  
+
+## References  
+
+* [Nestjs documentation](https://nestjs.com/)
+* [Github documentation for Github App creation](https://docs.github.com/en/developers/apps/building-github-apps/creating-a-github-app)
+* [Github REST API](https://docs.github.com/en/rest?apiVersion=2022-11-28)  
+* [Github SDKs](https://github.com/octokit)
 
