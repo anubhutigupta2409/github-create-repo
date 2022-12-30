@@ -10,19 +10,26 @@ export class GithubController {
     constructor(private readonly githubService: GithubService) {}
 
     //Request Handlers
+
+    //when "github/login" route is hit, the client is redirected to github's login interface for authrisation
     @Get("login")
-    startGitHubLoginFlow(@Res() res: Response): void {
+    getGitHubLogin(@Res() res: Response): void 
+    {
         const url: string = this.githubService.githubLogin();
         res.redirect(url);
     }
 
+    //"github/callback" is the route which github server falls back to once the user has authorised themselves
     @Get("callback")
-    async handleGitHubCallback(
+
+    //we extract the Query param from the url, since a code is sent back by the github's server
+    //which helps us get the access token of the user
+    async handleCallback(
         @Query("code") code: string,
         @Res() res: Response,
-    ): Promise<void> {
-        const redirect_url: string =
-            await this.githubService.callback(code);
-        res.redirect(redirect_url);
+    ): Promise<void> 
+    {
+        const redirectUrl: string = await this.githubService.callback(code);
+        res.redirect(redirectUrl);//now redirect the user to the newly created repo
     }
 }
