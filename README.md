@@ -30,22 +30,28 @@
 
 ### Nestjs App Setup
 * Open Terminal and run the following code to clone the repository  
-> `git clone https://github.com/anubhutigupta2409/github-create-repo.git`  
-* Change directory (cd) into the project directory and run the following command to install all the dependencies  
-> `npm install`
-* Create a `.env` file with the following contents  
+```
+git clone https://github.com/anubhutigupta2409/github-create-repo.git 
+```
+* Change directory (cd) into the project directory and run the following command to install all the dependencies 
+``` 
+ npm install
+ ```
+* Inside the project directory create a `.env` file with the following contents  
 ```
  GITHUB_CLIENT_ID= *paste your client id*  
  GITHUB_CLIENT_SECRET= *paste your client secret*  
  GITHUB_SCOPES= repo
-```
+```  
+* You can also edit the `templateRepo.json` file to change the template repo from which the new repo is created
 
 ## How to run the project
 
 In the project directory, you can run:
-
-### `npm run dev`
+```
+npm start
+```
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.  
-Open [http://localhost:8000](http://localhost:8000) to view server running in your browser.
+
