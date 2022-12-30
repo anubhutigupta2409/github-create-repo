@@ -21,9 +21,16 @@
 
 ## Instructions  
 
+### Github App setup  
+* Click on `New OAuth App` button to create a Github App from [here](https://github.com/settings/developers)  
+* Provide `Application name` of your choice  
+* Add `http://localhost:3000/` as `Homepage URL` and `http://localhost:3000/github/callback` as `Authorization callback URL`  
+* Click on `Register Application` to complete the creation process.
+* Then copy the `Client ID` and `generate a new client secret` and save them somwhere for future use.  
+
+### Nestjs App Setup
 * Open Terminal and run the following code to clone the repository  
 #### `git clone https://github.com/anubhutigupta2409/github-create-repo.git`  
-* Open 
 * Change directory (cd) into the project directory and run the following command to install all the dependencies
 
 ## Dependencies to isntall  
