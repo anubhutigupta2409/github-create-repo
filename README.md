@@ -30,7 +30,7 @@
 
 ### Nestjs App Setup
 * Open Terminal and run the following code to clone the repository  
-#### `git clone https://github.com/anubhutigupta2409/github-create-repo.git`  
+> `git clone https://github.com/anubhutigupta2409/github-create-repo.git`  
 * Change directory (cd) into the project directory and run the following command to install all the dependencies
 
 ## Dependencies to isntall  
