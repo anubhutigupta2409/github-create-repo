@@ -1,73 +1,47 @@
-<p align="center">
-  <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
-</p>
+# Github Create Repo
 
-[circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
-[circleci-url]: https://circleci.com/gh/nestjs/nest
+## What it does?
 
-  <p align="center">A progressive <a href="http://nodejs.org" target="_blank">Node.js</a> framework for building efficient and scalable server-side applications.</p>
-    <p align="center">
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/v/@nestjs/core.svg" alt="NPM Version" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/l/@nestjs/core.svg" alt="Package License" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/dm/@nestjs/common.svg" alt="NPM Downloads" /></a>
-<a href="https://circleci.com/gh/nestjs/nest" target="_blank"><img src="https://img.shields.io/circleci/build/github/nestjs/nest/master" alt="CircleCI" /></a>
-<a href="https://coveralls.io/github/nestjs/nest?branch=master" target="_blank"><img src="https://coveralls.io/repos/github/nestjs/nest/badge.svg?branch=master#9" alt="Coverage" /></a>
-<a href="https://discord.gg/G7Qnnhy" target="_blank"><img src="https://img.shields.io/badge/discord-online-brightgreen.svg" alt="Discord"/></a>
-<a href="https://opencollective.com/nest#backer" target="_blank"><img src="https://opencollective.com/nest/backers/badge.svg" alt="Backers on Open Collective" /></a>
-<a href="https://opencollective.com/nest#sponsor" target="_blank"><img src="https://opencollective.com/nest/sponsors/badge.svg" alt="Sponsors on Open Collective" /></a>
-  <a href="https://paypal.me/kamilmysliwiec" target="_blank"><img src="https://img.shields.io/badge/Donate-PayPal-ff3f59.svg"/></a>
-    <a href="https://opencollective.com/nest#sponsor"  target="_blank"><img src="https://img.shields.io/badge/Support%20us-Open%20Collective-41B883.svg" alt="Support us"></a>
-  <a href="https://twitter.com/nestframework" target="_blank"><img src="https://img.shields.io/twitter/follow/nestframework.svg?style=social&label=Follow"></a>
-</p>
-  <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
-  [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
+* Github Create Repo is a small website made using NestJS in the backend and basic HTML CSS in the frontend.  
+* It allows anyone to authorize their github account and the code will create a sample repo with some files in their account.
+* On clicking on `Create Repo` button, it will take the user to their Github account where they can grant permissions to my account.
+* After authorisation is complete, it will create a repo in the user’s account with some sample code.  
 
-## Description
+## Website Live Link
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+## Demo Video
+[Demo Video](https://www.youtube.com/watch?v=DgARl1SxYAA) {YouTube Unlisted Video}  
 
-## Installation
+## App Flow
+![untitled@2x](https://user-images.githubusercontent.com/56643076/206699768-bb448d6f-3364-42c0-882e-9788187a192e.png)  
 
-```bash
-$ npm install
-```
+## Software Installations 
+  
+* Install Node.js from [here](https://nodejs.org/en/).  
 
-## Running the app
+## Instructions  
 
-```bash
-# development
-$ npm run start
+* Open Terminal and run the following code to clone the repository  
+#### `git clone https://github.com/anubhutigupta2409/github-create-repo.git`  
+* Open 
+* Change directory (cd) into the project directory and run the following command to install all the dependencies
 
-# watch mode
-$ npm run start:dev
+## Dependencies to isntall  
 
-# production mode
-$ npm run start:prod
-```
+In the project directory install the following dependencies using the following command:
 
-## Test
+#### `npm i concurrently cors express mongodb morgan react react-dom react-scripts socket.io --save ` 
 
-```bash
-# unit tests
-$ npm run test
+In the project/src directory install the following dependency using the following command:
 
-# e2e tests
-$ npm run test:e2e
+#### `npm i socket.io-client --save`
 
-# test coverage
-$ npm run test:cov
-```
+## How to run the project
 
-## Support
+In the project directory, you can run:
 
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
+### `npm run dev`
 
-## Stay in touch
-
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
-
-## License
-
-Nest is [MIT licensed](LICENSE).
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.  
+Open [http://localhost:8000](http://localhost:8000) to view server running in your browser.
