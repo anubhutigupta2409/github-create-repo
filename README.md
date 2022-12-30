@@ -4,7 +4,7 @@
 
 * Github Create Repo is a small website made using NestJS in the backend and basic HTML CSS in the frontend.  
 * It allows anyone to authorize their github account and the code will create a sample repo with some files in their account.
-* On clicking on `Create Repo` button, it will take the user to their Github account where they can grant permissions to my account.
+* On clicking on `Create Repo` button, it will take the user to their Github account where they can grant permissions to their account.
 * After authorisation is complete, it will create a repo in the user’s account with some sample code.  
 
 ## Website Live Link
