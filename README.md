@@ -10,7 +10,7 @@
 ## Website Live Link
 
 ## Demo Video
-[Demo Video](https://www.youtube.com/watch?v=DgARl1SxYAA) {YouTube Unlisted Video}  
+[Demo Video](https://youtu.be/1g_jbjNvkRA) {YouTube Unlisted Video}  
 
 ## App Flow
 ![untitled@2x (1)](https://user-images.githubusercontent.com/56643076/210061927-754c84bb-317e-4970-849f-8c763082074d.png)  
@@ -28,7 +28,7 @@
 * Click on `Register Application` to complete the creation process.
 * Then copy the `Client ID` and `generate a new client secret` and save them somwhere for future use.  
 
-### Nestjs App Setup
+### NestJS App Setup
 * Open Terminal and run the following code to clone the repository  
 ```
 git clone https://github.com/anubhutigupta2409/github-create-repo.git 
@@ -58,7 +58,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser
 
 ## References  
 
-* [Nestjs documentation](https://nestjs.com/)
+* [NestJS documentation](https://nestjs.com/)
 * [Github documentation for Github App creation](https://docs.github.com/en/developers/apps/building-github-apps/creating-a-github-app)
 * [Github REST API](https://docs.github.com/en/rest?apiVersion=2022-11-28)  
 * [Github SDKs](https://github.com/octokit)
