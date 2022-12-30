@@ -34,11 +34,11 @@
 * Change directory (cd) into the project directory and run the following command to install all the dependencies  
 > `npm install`
 * Create a `.env` file with the following contents  
->```
- GITHUB_CLIENT_ID= *paste your client id*
- GITHUB_CLIENT_SECRET= *paste your client secret*
+```
+ GITHUB_CLIENT_ID= *paste your client id*  
+ GITHUB_CLIENT_SECRET= *paste your client secret*  
  GITHUB_SCOPES= repo
->```
+```
 
 ## How to run the project
 
