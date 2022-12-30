@@ -13,7 +13,7 @@
 [Demo Video](https://www.youtube.com/watch?v=DgARl1SxYAA) {YouTube Unlisted Video}  
 
 ## App Flow
-![untitled@2x](https://user-images.githubusercontent.com/56643076/206699768-bb448d6f-3364-42c0-882e-9788187a192e.png)  
+![untitled@2x (1)](https://user-images.githubusercontent.com/56643076/210061927-754c84bb-317e-4970-849f-8c763082074d.png)  
 
 ## Software Installations 
   
