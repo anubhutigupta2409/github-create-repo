@@ -31,17 +31,14 @@
 ### Nestjs App Setup
 * Open Terminal and run the following code to clone the repository  
 > `git clone https://github.com/anubhutigupta2409/github-create-repo.git`  
-* Change directory (cd) into the project directory and run the following command to install all the dependencies
-
-## Dependencies to isntall  
-
-In the project directory install the following dependencies using the following command:
-
-#### `npm i concurrently cors express mongodb morgan react react-dom react-scripts socket.io --save ` 
-
-In the project/src directory install the following dependency using the following command:
-
-#### `npm i socket.io-client --save`
+* Change directory (cd) into the project directory and run the following command to install all the dependencies  
+> `npm install`
+* Create a `.env` file with the following contents  
+>```
+ GITHUB_CLIENT_ID= *paste your client id*
+ GITHUB_CLIENT_SECRET= *paste your client secret*
+ GITHUB_SCOPES= repo
+>```
 
 ## How to run the project
 
